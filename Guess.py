@@ -2,7 +2,7 @@
 
 number = randint(0,100)
 #print (number)
-name = int(input("What is your name?"))
+name = input("What is your name?")
 print ("Okay, " + str(name) + ", let's do this!")
 for turn in range(50):
 
