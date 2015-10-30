@@ -14,7 +14,7 @@ for turn in range(50):
     else:
         if number == guess:
             print ("")
-            print ("Congratulations," + str(name) + ", you have guessed the number")
+            print ("Congratulations, " + str(name) + " , you have guessed the number")
             print ("")
             print ("It took you " + str(turn + 1) + " turns to guess it.")
             print ("The number was " + str(number) + ".")
